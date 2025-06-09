@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "<h1>Olá do meu aplicativo Python no Azure!</h1>"
+    return "<h1>Nós merecemos um 10 né professor</h1>"
 
 @app.route('/saudacao')
 def saudacao():
